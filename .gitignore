@@ -1,0 +1,4 @@
+images/
+__pycache__/
+names.txt
+banned_users.txt 

@@ -95,8 +95,8 @@ def listening():
         thread = threading.Thread(target = connections, args=(client,))
         thread.start() 
 
-greetings = [" just joined the server!",", we hope you bought pizza!", " just landed!", " just slid into the server!", " is here, as the prophecy foretold.", " just showed up!",
-" hopped into the server."]
+greetings = [" just joined the server!",", we hope you bought pizza!", " just landed!", " just slid into the server!", " is here, as the prophecy foretold!", " just showed up!",
+" hopped into the server!"]
 
 print("Server is listening ...")
 listening() 
